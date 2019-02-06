@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Exercice Andrea</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    <script src="./assets/js/script.js" type="text/javascript"></script>
   </head>
   <body>
     <main>
@@ -12,20 +12,20 @@
         <fieldset>
           <legend>Le formulaire de la mort</legend>
           <div>
-            <label for="Nom">Nom&nbsp;: </label><input type="text" id="Nom" name="Nom" placeholder="Saisir votre nom"/>
+            <label for="nom">Nom&nbsp;: </label><input type="text" id="nom" name="Nom" placeholder="Saisir votre nom"/>
           </div>
           <div>
-            <label for="Prénom">Prénom&nbsp;: </label><input type="text" id="Prénom" name="Prénom" placeholder="Saisir votre prénom"/>
+            <label for="prenom">Prénom&nbsp;: </label><input type="text" id="prenom" name="Prénom" placeholder="Saisir votre prénom"/>
           </div>
           <div>
-            <label for="Adresse mail">Adresse mail&nbsp;: </label><input type="email" name="Adresse mail" id="Adresse mail" placeholder="Saisir votre adresse mail" />
+            <label for="mail">Adresse mail&nbsp;: </label><input type="email" name="Adresse mail" id="mail" placeholder="Saisir votre adresse mail" />
           </div>
           <div>
-            <label for="Mot de passe">Mot de passe&nbsp;: </label><input type="password" name="Mot de passe" id="Mot de passe" placeholder="Saisir votre mot de passe" />
+            <label for="mdp">Mot de passe&nbsp;: </label><input type="password" name="Mot de passe" id="mdp" placeholder="Saisir votre mot de passe" />
           </div>
           <div>
             <input type="reset" value="Effacer" />
-            <input type="submit" value="Envoyer" />
+            <input type="submit" value="Envoyer" onclick="validerFrm()" />
           </div>
         </fieldset>
       </form>

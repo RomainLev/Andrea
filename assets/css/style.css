@@ -18,8 +18,8 @@ form fieldset legend {
 }
 label {
   float: left;
-  width: 200px;
-  text-align: right;
+  width: 110px;
+  text-align: left;
 }
 
 form fieldset div {
