@@ -1,8 +1,8 @@
 function validerFrm() {
-  var nom = document.getElementById('nom').value;
-  var prenom = document.getElementById('prenom').value;
-  var mail = document.getElementById('mail').value;
-  var mdp = document.getElementById('mdp').value;
+  var nom = $('#nom').val();
+  var prenom = $('#prenom').val();
+  var mail = $('#mail').val();
+  var mdp = $('#mdp').val();
 
   var erreurs = new Array();
 
